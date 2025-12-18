@@ -32,9 +32,9 @@
 #main {
     display: flex;
     justify-content: space-around;
-    padding: 40px;
+    padding:  40px;
     background-color: #8b8686;
-    gap: 20px;
+    gap: 10px;
 }
 .box {
     height: 500px;
@@ -47,11 +47,20 @@
     box-shadow: 2px 2px 8px rgba(10, 9, 9, 0.1);
     transition: transform 0.3s;
 }
+.box a{
+    text-decoration: none;
+    color: black;
+    float: left;
+    font-size: 30px;
+}
+.box a:hover{
+    color: blueviolet ;
+}
 #footer {
     background-color: #333;
     color: white;
     text-align: center;
-    font-size: 10px;
+    font-size: 15px;
     padding: 20px 10px; 
 }
 
